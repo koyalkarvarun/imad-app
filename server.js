@@ -14,18 +14,18 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+  res.sendfile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
 app.get('/article-one', function(req, res){
     res.sendFile('article one will be available shortly');
 });
 app.get('/article-two', function(req , res){
-    res.sendFile('article two will be availabel shortly');
+    res.sendfile('article two will be availabel shortly');
 });
 
 app.get('/article-three', function(req, res){
-    res.sendFile('article three will be available shortly');
+    res.sendfile('article three will be available shortly');
 });
 
 
