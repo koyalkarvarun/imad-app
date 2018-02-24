@@ -14,11 +14,11 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/madi.png', function (req, res) {
-  res.sendfile(path.join(__dirname, 'ui', 'madi.png'));
+  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
 app.get('/article-one', function(req, res){
-    res.sendFile('article one will be available shortly');
+    res.sendfile('article one will be available shortly');
 });
 app.get('/article-two', function(req , res){
     res.sendfile('article two will be availabel shortly');
