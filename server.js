@@ -29,7 +29,7 @@ app.get('/article-three', function(req, res){
 });
 
 app.get('/article-four',function(req, res){
-    res.sendfile(path.join(_dirname, 'ui', 'article-four.html'));
+    res.sendfile(path.join(__dirname, 'ui', 'article-four.html'));
 });
 
 
