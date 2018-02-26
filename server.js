@@ -32,7 +32,7 @@ app.get('/article-four',function(req, res){
     res.sendfile(path.join(__dirname, 'ui', 'article-four.html'));
 });
 
-app.get('/new matter', function(req, res){
+app.get('/new-matter', function(req, res){
     res.send('new matter will be available shortly');
 });
 
